@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CODING HUB</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <!-- header section starts  -->
+
+    <header class="header">
+
+        <a href="#" class="logo"><span>CODING.</span>HUB</a>
+
+        <div class="topnav" id="myTopnav">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <div class="dropdown">
+                <button class="dropbtn">Courses
+                <i class="fa fa-caret-down"></i>
+              </button>
+                <div class="dropdown-content">
+                    <a href="#HTML">HTML</a>
+                    <a href="#CSS">CSS</a>
+                    <a href="#JAVASCRIPT">JAVASCRIPT</a>
+                    <a href="#NODE-JS">NODE-JS</a>
+                    <a href="#VUE-JS">VUE-JS</a>
+                    <a href="#PHP">PHP</a>
+                </div>
+            </div>
+            <a href="#price">Price</a>
+            <a href="#reivew">Review</a>
+            <a href="#contact">Contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
+
+        <div id="menu-bars" class="fas fa-bars"></div>
+
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>Become a <span> CODER </span></h3><br>
+            <h2>
+                <p style="color:rgb(254, 253, 254);"> with some extra ordinary </p>
+                <p style="color:#f7b731;"> CODING </p>
+                <p style="color:rgb(254, 253, 254);"> skills </p>
+            </h2>
+            <button class="btn btn-warning btn-lg" data-bs-toggle="modal" data-bs-target="#enroll">
+              Start The Enrollment
+            </button>
+        </div>
+
+        <div class="swiper-container home-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="images/1656833061732.png" alt=""></div>
+                <div class="swiper-slide"><img src="images/1656833061713.png" alt=""></div>
+                <div class="swiper-slide"><img src="images/1656833061694.png" alt=""></div>
+                <div class="swiper-slide"><img src="images/1656833061751.png" alt=""></div>
+                <div class="swiper-slide"><img src="images/1656833061768.png" alt=""></div>
+                <div class="swiper-slide"><img src="images/1656833061672.png" alt=""></div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- home section ends -->
+
+
+
+    <!-- about section starts  -->
+
+    <section class="about" id="about">
+
+        <h1 class="heading"><span>About</span> us </h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="images/fundamentals.svg" alt="">
+            </div>
+
+            <div class="content">
+                <h3>we will give you very special classes and opportunity to emprove your self</h3>
+                <p>We focus on teaching our students the fundamentals of the latest and greatest technologies to prepare them for their first dev role.</p>
+                <a href="#courses" class="btn">See our Courses</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- about section ends -->
+
+    <!-- corses section starts  -->
+
+    <section class="courses" id="courses">
+
+        <h1 class="heading"> Our <span>Courses</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/HTML.png" alt="">
+                <h3 class="title">
+                    <section class="HTML" id="HTML">HTML</section>
+                </h3>
+            </div>
+
+            <div class="box">
+                <img src="images/CSS.png" alt="">
+                <h3 class="title">
+                    <section class="CSS" id="CSS">CSS</section>
+                </h3>
+            </div>
+
+            <div class="box">
+                <img src="images/JS.png" alt="">
+                <h3 class="title">
+                    <section class="JAVASCRIPT" id="JAVASCRIPT">JAVASCRIPT</section>
+                </h3>
+            </div>
+
+            <div class="box">
+                <img src="images/VUE-JS.png" alt="">
+                <h3 class="title">
+                    <section class="VUE-JS" id="VUE-JS">VUE-JS</section>
+                </h3>
+            </div>
+
+            <div class="box">
+                <img src="images/NODE-JS.png" alt="">
+                <h3 class="title">
+                    <section class="NODE-JS" id="NODE-JS">NODE-JS</section>
+                </h3>
+            </div>
+
+            <div class="box">
+                <img src="images/PHP.png" alt="">
+                <h3 class="title">
+                    <section class="PHP" id="PHP">PHP</section>
+                </h3>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- service section ends -->
+
+    <!-- price section starts  -->
+
+    <section class="price" id="price">
+
+        <h1 class="heading"> our <span>price</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3 class="title">HTML COURSE</h3>
+                <h3 class="amount">₹250.99</h3>
+                <ul>
+                    <li><i class="fas fa-check"></i> 24 hour on-demand video </li>
+                    <li> <i class="fas fa-check"></i> Full lifetime access </li>
+                    <li> <i class="fas fa-check"></i> Access on mobile and TV </li>
+                    <li> <i class="fas fa-check"></i> Certificate of completion </li>
+                </ul>
+                <a href="#" class="btn">check out</a>
+            </div>
+
+            <div class="box">
+                <h3 class="title">CSS COURSE</h3>
+                <h3 class="amount">₹450.99</h3>
+                <ul>
+                    <li><i class="fas fa-check"></i> 24 hour on-demand video </li>
+                    <li> <i class="fas fa-check"></i> Full lifetime access </li>
+                    <li> <i class="fas fa-check"></i> Access on mobile and TV </li>
+                    <li> <i class="fas fa-check"></i> Certificate of completion </li>
+                </ul>
+                <a href="#" class="btn">check out</a>
+            </div>
+
+            <div class="box">
+                <h3 class="title">VUE-JS COURSE</h3>
+                <h3 class="amount">₹650.99</h3>
+                <ul>
+                    <li><i class="fas fa-check"></i> 24 hour on-demand video </li>
+                    <li> <i class="fas fa-check"></i> Full lifetime access </li>
+                    <li> <i class="fas fa-check"></i> Access on mobile and TV </li>
+                    <li> <i class="fas fa-check"></i> Certificate of completion </li>
+                </ul>
+                <a href="#" class="btn">check out</a>
+            </div>
+
+            <div class="box">
+                <h3 class="title">NODE-JS COURSE</h3>
+                <h3 class="amount">₹850.99</h3>
+                <ul>
+                    <li><i class="fas fa-check"></i> 24 hour on-demand video </li>
+                    <li> <i class="fas fa-check"></i> Full lifetime access </li>
+                    <li> <i class="fas fa-check"></i> Access on mobile and TV </li>
+                    <li> <i class="fas fa-check"></i> Certificate of completion </li>
+                </ul>
+                <a href="#" class="btn">check out</a>
+            </div>
+
+            <div class="box">
+                <h3 class="title">JAVASCRIPT COURSE</h3>
+                <h3 class="amount">₹650.99</h3>
+                <ul>
+                    <li><i class="fas fa-check"></i> 24 hour on-demand video </li>
+                    <li> <i class="fas fa-check"></i> Full lifetime access </li>
+                    <li> <i class="fas fa-check"></i> Access on mobile and TV </li>
+                    <li> <i class="fas fa-check"></i> Certificate of completion </li>
+                </ul>
+                <a href="#" class="btn">check out</a>
+            </div>
+
+            <div class="box">
+                <h3 class="title">PHP COURSE</h3>
+                <h3 class="amount">₹650.99</h3>
+                <ul>
+                    <li><i class="fas fa-check"></i> 24 hour on-demand video </li>
+                    <li> <i class="fas fa-check"></i> Full lifetime access </li>
+                    <li> <i class="fas fa-check"></i> Access on mobile and TV </li>
+                    <li> <i class="fas fa-check"></i> Certificate of completion </li>
+                </ul>
+                <a href="#" class="btn">check out</a>
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <!-- price section ends -->
+
+    <!-- review section starts  -->
+
+    <section class="reivew" id="review">
+
+        <h1 class="heading">Student's <span>review</span></h1>
+
+        <div class="review-slider swiper-container">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/pic-1.png" alt="">
+                        <div class="user-info">
+                            <h3>john deo</h3>
+                            <span>happy clients</span>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis dolor dicta cum. Eos beatae eligendi, magni numquam nemo sed ut corrupti, ipsam iure nisi unde et assumenda perspiciatis voluptatibus nihil.</p>
+                </div>
+
+                <div class="swiper-slide box">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/pic-2.png" alt="">
+                        <div class="user-info">
+                            <h3>john deo</h3>
+                            <span>happy clients</span>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis dolor dicta cum. Eos beatae eligendi, magni numquam nemo sed ut corrupti, ipsam iure nisi unde et assumenda perspiciatis voluptatibus nihil.</p>
+                </div>
+
+                <div class="swiper-slide box">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/pic-3.png" alt="">
+                        <div class="user-info">
+                            <h3>john deo</h3>
+                            <span>happy clients</span>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis dolor dicta cum. Eos beatae eligendi, magni numquam nemo sed ut corrupti, ipsam iure nisi unde et assumenda perspiciatis voluptatibus nihil.</p>
+                </div>
+
+                <div class="swiper-slide box">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/pic-4.png" alt="">
+                        <div class="user-info">
+                            <h3>john deo</h3>
+                            <span>happy clients</span>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis dolor dicta cum. Eos beatae eligendi, magni numquam nemo sed ut corrupti, ipsam iure nisi unde et assumenda perspiciatis voluptatibus nihil.</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- review section ends -->
+
+    <!-- contact section starts  -->
+
+    <section class="contact" id="contact">
+
+        <h1 class="heading"> <span>contact</span> us </h1>
+
+        <form action="">
+            <div class="inputBox">
+                <input type="text" placeholder="name">
+                <input type="email" placeholder="email">
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="number">
+                <input type="text" placeholder="subject">
+            </div>
+            <textarea name="" placeholder="your message" id="" cols="30" rows="10"></textarea>
+            <input type="submit" value="send message" class="btn">
+        </form>
+
+    </section>
+
+    <!-- contact section ends -->
+
+    <!-- footer section starts  -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>branches</h3>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> Siliguri </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> Malda </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> Kolkata </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> Mumbai </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> Delhi </a>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#home"> <i class="fas fa-arrow-right"></i> home </a>
+                <a href="#about"> <i class="fas fa-arrow-right"></i> about </a>
+                <a href="#courses"> <i class="fas fa-arrow-right"></i> courses </a>
+                <a href="#price"> <i class="fas fa-arrow-right"></i> price </a>
+                <a href="#review"> <i class="fas fa-arrow-right"></i> reivew </a>
+                <a href="#contact"> <i class="fas fa-arrow-right"></i> contact </a>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#"> <i class="fas fa-phone"></i> +123-456-7890 </a>
+                <a href="#"> <i class="fas fa-phone"></i> +111-222-3333 </a>
+                <a href="#"> <i class="fas fa-envelope"></i> coder.ad001@gmail.com </a>
+                <a href="#"> <i class="fas fa-envelope"></i> akashdeepsarkar67@gmail.com </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> West Bengal, india </a>
+            </div>
+
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="https://www.facebook.com/profile.php?id=100029340664499"> <i class="fab fa-facebook-f"></i> facebook </a>
+                <a href="https://mobile.twitter.com/AkashDeepSark13"> <i class="fab fa-twitter"></i> twitter </a>
+                <a href="https://www.instagram.com/python_guru_/"> <i class="fab fa-instagram"></i> instagram </a>
+                <a href="https://www.linkedin.com/in/akash-deep-sarkar-2a1215216"> <i class="fab fa-linkedin"></i> linkedin </a>
+                <a href="https://akash-sarkar.jimdosite.com/"> <i class="fab fa-chrome"></i> Portfolio </a>
+            </div>
+
+        </div>
+
+        <div class="credit"> created by <span> <i class="fa fa-copyright"></i> CODER AD </span> | all rights reserved </div>
+
+    </section>
+
+    <!-- footer section ends -->
+
+    <!-- theme toggler  -->
+
+    <div class="theme-toggler">
+
+        <div class="toggle-btn">
+            <i class="fas fa-cog"></i>
+        </div>
+
+        <h3>choose color</h3>
+
+        <div class="buttons">
+            <div class="theme-btn" style="background: #3867d6;"></div>
+            <div class="theme-btn" style="background: #c931f7;"></div>
+            <div class="theme-btn" style="background: #ff0033;"></div>
+            <div class="theme-btn" style="background: #20bf6b;"></div>
+            <div class="theme-btn" style="background: #fa8231;"></div>
+            <div class="theme-btn" style="background: #FC427B;"></div>
+        </div>
+
+    </div>
+
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
